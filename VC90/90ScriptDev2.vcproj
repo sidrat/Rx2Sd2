@@ -427,8 +427,20 @@
 					RelativePath="..\scripts\custom\npc_arena_honor.cpp"
 					>
 				</File>
-				<File
+ 				<File
 					RelativePath="..\scripts\custom\teleguy.cpp"
+					>
+				</File>
+ 				<File
+					RelativePath="..\scripts\custom\custom_gameobjects.cpp"
+					>
+				</File>
+ 				<File
+					RelativePath="..\scripts\custom\custom_items.cpp"
+					>
+				</File>
+ 				<File
+					RelativePath="..\scripts\custom\custom_npcs.cpp"
 					>
 				</File>
 			</Filter>
