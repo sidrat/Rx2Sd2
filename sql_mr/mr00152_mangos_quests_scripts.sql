@@ -59,7 +59,7 @@ DELETE FROM `item_required_target` WHERE `entry` = 29746;
 INSERT INTO `item_required_target` (`entry`, `type`, `targetEntry`) VALUES ('29746', '1', '55161');
 
 -- correct target and take quest item away when quest is done and remove uneeded reqspellcast
-UPDATE `quest_template` SET `ReqSourceId1` = 41179, `ReqSourceCount1` = 1, `ReqCreatureOrGOId1` = 297460, `ReqSpellCast1` = 0 WHERE `entry` = 12860;
+UPDATE `quest_template` SET `ReqSourceId1` = 41179, `ReqSourceCount1` = 1, `ReqCreatureOrGOId1` = 29746, `ReqSpellCast1` = 0 WHERE `entry` = 12860;
 
 -- correct target and take quest item away when quest is done and remove uneeded reqspellcast
 UPDATE `quest_template` SET `ReqSourceId1` = 41179, `ReqSourceCount1` = 1, `ReqCreatureOrGOId1` = 29746, `ReqSpellCast1` = 0 WHERE `entry` = 12927;
